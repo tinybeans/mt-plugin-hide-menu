@@ -6,6 +6,15 @@ author_name: Alfasado Inc.
 author_link: http://alfasado.net/
 description: '<__trans phrase="Hide menu items.">'
 l10n_class: HideMenu::L10N
+system_config_template: system_config.tmpl
+blog_config_template: blog_config.tmpl
+settings:
+   HideBlogMenuList:
+       scope: blog
+       default: ''
+   HideSystemMenuList:
+       scope: system
+       default: ''
 callbacks:
     MT::App::CMS::pre_run:
         - handler: $hidemenu::HideMenu::Plugin::_pre_run

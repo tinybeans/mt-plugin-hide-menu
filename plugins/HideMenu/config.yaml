@@ -1,3 +1,5 @@
+# Customized by Tomohiro Okuwaki (http://www.tinybeans.net/blog/).
+# Added the plugin settings.
 id  : HideMenu
 key : hidemenu
 name: HideMenu

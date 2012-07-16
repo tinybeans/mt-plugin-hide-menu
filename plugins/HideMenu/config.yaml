@@ -14,6 +14,9 @@ settings:
    HideBlogMenuList:
        scope: blog
        default: ''
+   ApplySystemSetting:
+       scope: blog
+       default: 1
    HideSystemMenuList:
        scope: system
        default: ''

@@ -1,4 +1,13 @@
 <mtapp:setting
+    id="ApplySystemSetting"
+    label="<__trans phrase="Apply System Plugin Setting">"
+    show_label="1"
+    hint="<__trans phrase="If you are here is checked, the following settings will be ignored.">"
+    show_hint="1">
+    <input type="checkbox" name="ApplySystemSetting" id="ApplySystemSetting" value="1"<mt:if name="ApplySystemSetting"> checked="checked"</mt:if> mt:watch-change="1" />
+</mtapp:setting>
+
+<mtapp:setting
     id="HideBlogMenuList"
     label="HideBlogMenuList"
     show_label="0"
